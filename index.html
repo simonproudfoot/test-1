@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+    rel="stylesheet">
+  <link href="dist/output.css" rel="stylesheet">
+   <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+  <script defer src="js/script.js"></script>
+</head>
+
+<body class="bg-secondary flex items-center justify-center min-h-screen">
+  <main class="bg-primary text-white lg:w-3/4 flex flex-wrap lg:flex-nowrap rounded-xl overflow-hidden m-6">
+    <div
+      class="p-6 lg:p-8 lg:p-14 w-full lg:w-1/2 min-h-full order-2 lg:order-1 text-center lg:text-left flex  flex-wrap  items-stretch">
+      <div class="self-start">
+        <h1 id="headingText" class="font-heading text-whiteA 6 text-4xl font-bold">Get <span class="text-accent">insights</span> that
+          help your business grow.</h1>
+        <p id="textContent" class="text-whiteC leading-relaxed my-6">
+          Discover the benefits of data analytics and make better decisions regarding revenue, customer
+          experience, and overall efficiency.</p>
+      </div>
+      <div class="lg:grid grid-cols-3  justify-between w-full space-y-8 lg:space-y-0 self-end block h-auto">
+        <div class="statBox pr-4">
+          <h3 class="text-whiteA text-3xl font-semibold font-heading mb-1"><span class="statBox__counter"></span>k+
+          </h3>
+          <h5 class="text-whiteC tracking-widest font-heading text-xs statBox__title">COMPANIES</h5>
+        </div>
+        <div class="statBox pr-4">
+          <h3 class="text-whiteA text-3xl font-semibold font-heading mb-1"><span class="statBox__counter"></span>
+          </h3>
+          <h5 class="text-whiteC tracking-widest font-heading text-xs statBox__title">TEMPLATES</h5>
+        </div>
+        <div class="statBox pr-4">
+          <h3 class="text-whiteA text-3xl font-semibold font-heading mb-1"><span class="statBox__counter"></span>M+
+          </h3>
+          <h5 class="text-whiteC tracking-widest font-heading text-xs statBox__title">QUERIES</h5>
+        </div>
+      </div>
+    </div>
+    <div class="w-full lg:w-1/2 bg-accent order-1 lg:order-2">
+      <picture class="w-full h-full  object-cover">
+        <source srcset="images/image-header-desktop.jpg" media="(mix-width: 1024px), 100%" />
+        <source srcset="images/image-header-mobile.jpg" media="(max-width: 1024px), 100%" />
+        <img src="images/image-header-desktop.jpg"
+          class="w-full h-full object-cover mix-blend-multiply bg-accent opacity-80" alt="Office environment">
+      </picture>
+    </div>
+  </main>
+</body>
+
+</html>
