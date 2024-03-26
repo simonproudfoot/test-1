@@ -1,0 +1,28 @@
+{
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log"
+      ]
+    }
+  ],
+  "hosting": [
+    {
+      "target": "be-my-guest",
+      "public": "be-my-guest/"
+    },
+    {
+      "target": "quikblocs",
+      "public": "quikblocs/"
+    },
+    {
+      "target": "birthdayChimp",
+      "public": "birthdayChimp/"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: "Recoleta-Bold";
+    src: url("../fonts/Recoleta-Bold/font.woff2") format("woff2"),
+      url("../fonts/Recoleta-Bold/font.woff") format("woff");
+  }
+
+body{
+    font-size: 15px;
+}
+
+
+.font-heading {
+    font-family: "Recoleta-Bold", serif;
+    font-weight: 400;
+    font-style: normal;
+  }

@@ -1,3 +1,4 @@
+const colors = require('./colors');
 module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
@@ -23,14 +24,7 @@ module.exports = {
       xl: '1440px',
     },
 
-    colors: {
-      secondary: 'hsl(233, 47%, 7%)',
-      primary: 'hsl(244, 38%, 16%)',
-      accent: 'hsl(277, 64%, 61%)',
-      whiteA: 'hsl(0, 0%, 100%)',
-      whiteB: 'hsla(0, 0%, 100%, 0.75)',
-      whiteC: 'hsla(0, 0%, 100%, 0.6)',
-    },
+    colors: colors.colors,
 
   }
 

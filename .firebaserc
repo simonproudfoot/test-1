@@ -1,0 +1,24 @@
+{
+  "projects": {
+    "default": "birthday-mailer-c526d"
+  },
+  "targets": {
+    "app-validation-7dea1": {
+      "hosting": {
+        "app-validation-7dea1.": [
+          "resources"
+        ],
+        "be-my-guest": [
+          "be-my-guest"
+        ],
+        "quikblocs": [
+          "quikblocs"
+        ],
+        "birthdayChimp": [
+          "birthdayChimp"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
